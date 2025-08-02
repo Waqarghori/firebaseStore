@@ -29,6 +29,16 @@ userBtn.addEventListener('click', async () => {
       email,
       age
     });
+
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Zenovate Digital",
+      text: "Your details have been submitted",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
     console.log("Document written with ID: ", docRef.id);
     document.getElementById('userName').value = ''
     document.getElementById('userEmail').value = ''
