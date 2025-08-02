@@ -34,4 +34,7 @@ try {
   console.error("Error adding document: ", e);
 }
 
+name = ''
+email = ''
+age = ''
 })
